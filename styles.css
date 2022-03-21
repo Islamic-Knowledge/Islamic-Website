@@ -1,0 +1,72 @@
+#layout-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav {
+    border-style: solid;
+    border-width: 0.2em;
+    border-color: rgb(15, 122, 194);
+    border-radius: 2em;
+    padding: 1em;
+    font-family: 'Concert One', cursive;
+}
+.nav1  {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    color: rgb(15, 122, 194);
+    font-family: 'Open Sans', sans-serif;
+}
+.nav2 {
+    font-family: 'Concert One', cursive;
+    padding-right: 1em;
+    color:black;
+}
+.row {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.left-column {
+    height: 40vh;
+    flex: 40%;
+}
+.right-column {
+    height: 40vh;
+    flex: 60%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+#right-col-index {
+    background-image: url(images/Prayer1.png);
+}
+#right-col-more {
+    background-image: url(images/Prayer.png);
+}
+#right-col-knowledge {
+    background-image: url(images/quran.png);
+}
+.main-heading {
+    font-family: 'Concert One', cursive;
+    font-size: 4em;
+    color: rgb(15, 122, 194);
+    padding-top: .2em;
+    padding-bottom: .4em;
+}
+.div {
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    color: rgb(15, 122, 194);
+    font-size: 3em;
+}
+#content-area {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 6em;
+}
