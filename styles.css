@@ -40,6 +40,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-top: 2em;
 } 
 #right-col-index {
     background-image: url(images/Prayer1.png);
@@ -66,7 +67,31 @@
     color: rgb(15, 122, 194);
     font-size: 3em;
 }
-#content-area {
+.content-area {
     font-family: 'Montserrat', sans-serif;
-    margin-top: 6em;
+}
+#row2 {
+    height: 60vh;
+    margin-top: 4em;
+}
+.right-column-2 {
+    height: 50vh;
+    flex: 60%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 3em;
+}
+#right-col-index-2 {
+    background-image: url(images/Dua.png);
+}
+#right-col-more-2 {
+    background-image: url();
+}
+#right-col-knowledge-2 {
+    background-image: url();
+}
+#content-area-2 {
+    color: rgb(15, 122, 194);
+    padding-bottom: 4em;
 }
